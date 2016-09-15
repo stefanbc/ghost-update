@@ -59,7 +59,7 @@ Example of Ghost update comand:
         and npm install --production
         
         and echo "Step 11: restarting Ghost!"
-        and service restart ghost
+        and service ghost restart
         and rm /tmp/ghost-latest.zip
         and rm -rf /tmp/ghost-temp
 
