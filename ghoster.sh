@@ -4,7 +4,7 @@
 #
 
 # ## Config
-set -l GHOST_INSTALL_PATH "/Users/stefan/Work/ghost/"
+set -l GHOST_INSTALL_PATH "/var/www/ghost/"
 
 if test (count $argv) -lt 1
   echo "
