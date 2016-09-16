@@ -1,6 +1,6 @@
 # ghoster
 
-A small shell script to update your Ghost installation.
+A small bash script that updates your Ghost instance
 
 ## Before usage
 
