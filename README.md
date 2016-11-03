@@ -1,10 +1,10 @@
 # ghoster
 
-A small bash script that updates your Ghost instance
+A small bash script that installs a specified Ghost version
 
 ## Before usage
 
-Keep in mind that this script requires cURL to download the latest stable version of Ghost.
+Keep in mind that this script requires cURL to download the specified version of Ghost.
 
 Before you start the script make sure you modify the `GHOST_INSTALL_PATH` line with the correct path to your Ghost instance.
 
@@ -16,13 +16,21 @@ In case your Ghost instance is not running on a Digital Ocean droplet you can co
 
 You can use the `./ghoster help` to read about the available commands.
 
-To actually use the script, you can use the `./ghoster update` command, to update your Ghost instance.
+To actually use the script, you can use this command:
+
+```
+./ghoster install <version>
+```
+
+This will install a specified Ghost version. If you want to install the latest version you can use this command:
+
+```
+./ghoster install latest
+```
 
 ## Roadmap
 
-* Ability to chose the Ghost version
 * Compatibility with multiple types of Ghost installations
-* Ability to downgrade to a previous version of Ghost
 * More meaningful error messages
 
 ## Notice
