@@ -73,6 +73,8 @@ else
         and echo ""
 
         and echo "Step 10: upgrading dependencies"
+        and rm -rf node_modules
+        and npm cache clean
         and npm install --production
         and echo ""
 
